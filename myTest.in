@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <string.h>
+#include "text_manipulation.h"
+
+int main() {
+    char result[10];
+    right_align("terps", result, 7);
+    printf("%s\n", result);
+    return 0;
+}
